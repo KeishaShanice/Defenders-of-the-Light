@@ -20,7 +20,6 @@ function Character(data) {
 
     this.getCharacterHtml = function(){
         const {elementId, name, img, health, diceCount} = this;
-        //let diceHtml = this.getDiceHtml(diceCount);
         
 
         return `
